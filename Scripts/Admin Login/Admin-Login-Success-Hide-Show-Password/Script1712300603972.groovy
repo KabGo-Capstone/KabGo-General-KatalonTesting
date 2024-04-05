@@ -27,14 +27,10 @@ WebUI.setText(findTestObject('Admin_Login_Page/input_EmailAddress'), 'giahuy2002
 
 WebUI.setText(findTestObject('Admin_Login_Page/input_Password'), 'aB123789#')
 
-// Test Hide Password
-password = WebUI.getText(findTestObject('Admin_Login_Page/input_Password'))
-WebUI.verifyEqual(password, '')
-
 // Test Show Password
 WebUI.click(findTestObject('Admin_Login_Page/button_ShowPassword'))
 password = WebUI.getAttribute(findTestObject('Admin_Login_Page/input_Password'), 'value')
-// WebUI.verifyEqual(password, 'aB123789#')
+WebUI.verifyEqual(password, 'aB123789#')
 
 WebUI.click(findTestObject('Admin_Login_Page/button_Continue'))
 

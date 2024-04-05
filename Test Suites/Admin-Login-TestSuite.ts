@@ -32,4 +32,11 @@
       <testCaseId>Test Cases/Admin Login/Admin-Login-WrongPassword</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>f4c7b48b-1a78-4059-86b5-8c359a098859</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Login/Admin-Login-Success-Hide-Show-Password</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

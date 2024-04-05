@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 //WebUI.acceptAlert()
 // Mở trình duyệt và truy cập vào URL đã cho
-WebUI.openBrowser('https://192.168.1.188:3003')
+WebUI.openBrowser('https://admin-panel.kabgo.mtech.id.vn')
 
 WebUI.setText(findTestObject('Admin_Login_Page/input_EmailAddress'), 'giahuy200203@gmail.com')
 
