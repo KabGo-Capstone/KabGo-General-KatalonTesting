@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Admin-Login-TestSuite</name>
+   <name>Service-Status-TestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,26 +10,26 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>1a2c8b80-b4fd-4159-ae1b-f176807b44c5</testSuiteGuid>
+   <testSuiteGuid>41df7ceb-a2e9-4215-9406-f534db3e19ce</testSuiteGuid>
    <testCaseLink>
-      <guid>ebc6bf82-ca6c-4aa9-8fac-814de690afeb</guid>
+      <guid>5d285027-0c4e-482d-810e-307c16f973fc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Login/Admin-Login-Success</testCaseId>
+      <testCaseId>Test Cases/Backend Api/Admin-Service-Status</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b87a7b88-7c64-4660-861b-313b3020ae35</guid>
+      <guid>636d05f3-3ee5-4d86-a2d0-f25a670eb587</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Login/Admin-Login-WrongEmail</testCaseId>
+      <testCaseId>Test Cases/Backend Api/Demand-Service-Status</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e64ff1ed-c1f5-4bfd-a49d-15a55667892b</guid>
+      <guid>daa0985a-7280-4c97-868a-a918de52a6d6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Login/Admin-Login-WrongPassword</testCaseId>
+      <testCaseId>Test Cases/Backend Api/Supply-Service-Status</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

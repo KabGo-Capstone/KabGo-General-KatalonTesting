@@ -17,14 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.acceptAlert()
-// Mở trình duyệt và truy cập vào URL đã cho
-WebUI.openBrowser('https://192.168.1.188:3003')
+response = WS.sendRequest(findTestObject('Backend Api/Supply_Service_Status'))
 
-WebUI.setText(findTestObject('Admin_Login_Page/input_EmailAddress'), 'giahuy200203@gmail.com')
-
-WebUI.setText(findTestObject('Admin_Login_Page/input_Password'), 'aB123789#')
-
-WebUI.click(findTestObject('Admin_Login_Page/button_Continue'))
-
-WebUI.closeBrowser()
+WS.verifyElementPropertyValue(response, 'server', "KabGo Supply")
+WS.verifyElementPropertyValue(response, 'status', "200 - OK")
+WS.verifyElementPropertyValue(response, 'message', "Server is running ...")
