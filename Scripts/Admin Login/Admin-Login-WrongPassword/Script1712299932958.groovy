@@ -25,8 +25,11 @@ WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Admin_Login_Page/input_EmailAddress'), 'giahuy200203@gmail.com')
 
-WebUI.setText(findTestObject('Admin_Login_Page/input_Password'), 'aB123789#')
+WebUI.setText(findTestObject('Admin_Login_Page/input_Password'), 'admin123')
 
 WebUI.click(findTestObject('Admin_Login_Page/button_Continue'))
+
+errorMessage =  WebUI.getText(findTestObject('Admin_Login_Page/span_ErrorMessage')).trim()
+WebUI.verifyEqual(errorMessage, 'Wrong email or password')
 
 WebUI.closeBrowser()
